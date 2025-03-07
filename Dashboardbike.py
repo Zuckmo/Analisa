@@ -1,11 +1,14 @@
+
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.pyplot
 # Load data
-day_url = "https://raw.githubusercontent.com/Zuckmo/AnalisaDataSepeda/refs/heads/main/modified_day.csv"
-hour_url = "https://raw.githubusercontent.com/Zuckmo/AnalisaDataSepeda/refs/heads/main/modified_hour.csv"
+day_url = "https://raw.githubusercontent.com/Zuckmo/Analisa/refs/heads/master/day_cleaned.csv"
+hour_url = "https://raw.githubusercontent.com/Zuckmo/Analisa/refs/heads/master/hour_cleaned.csv"
 
 day = pd.read_csv(day_url)
 hour = pd.read_csv(hour_url)
