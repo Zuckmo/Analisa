@@ -5,7 +5,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.pyplot
 # Load data
 day_url = "https://raw.githubusercontent.com/Zuckmo/Analisa/refs/heads/master/day_cleaned.csv"
 hour_url = "https://raw.githubusercontent.com/Zuckmo/Analisa/refs/heads/master/hour_cleaned.csv"
